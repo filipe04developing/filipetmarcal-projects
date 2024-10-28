@@ -20,8 +20,7 @@ coordinate averageposition(coordinate points[],int n){
   return average;
 //Calculate the distance
 float Distance(coordinate p1, coordinate p2){
-  distance = sqrt(pow(p2.x-p1.x,2)+pow(p2.y-p1.y,2));
-  return distance;
+  return sqrt(pow(p2.x-p1.x,2)+pow(p2.y-p1.y,2));
 }
 int main(){
   int count;
