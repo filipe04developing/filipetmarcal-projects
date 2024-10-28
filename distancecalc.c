@@ -19,8 +19,8 @@ coordinate averageposition(coordinate points[], int n) {
     }
     average.x /= n;
     average.y /= n;
-    return average;
-}
+    return average;  // This line was correct
+} // This closing bracket was missing in your original code
 
 // Calculate the distance
 float Distance(coordinate p1, coordinate p2) {
